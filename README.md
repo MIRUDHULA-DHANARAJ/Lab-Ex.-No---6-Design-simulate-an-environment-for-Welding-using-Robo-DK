@@ -56,7 +56,7 @@ Plasma welding offers the most significant degree of flexibility because the ope
 3. Now that you have imported the path from SolidWorks, you can go to RoboDK.
 4. In the station tree, click Weld1 Settings which will open the Curve Follow Project.
 5. Click Update to generate the program and then Simulate.
-6. ![image](https://user-images.githubusercontent.com/36288975/173730531-c72ca3bd-9eb2-4a06-9e88-8a745cd0c5fd.png)
+6.    ![image](https://user-images.githubusercontent.com/36288975/173730531-c72ca3bd-9eb2-4a06-9e88-8a745cd0c5fd.png)
 First, you should fix the path itself:
 1. In the Curve Follow Project, click on Select Curve (going from 1 to 2, then 3 to 4, 5 to 6, 7 to 8, and 9
 to 10).
@@ -75,7 +75,11 @@ appear to show you the orientation of the tool for different positions along the
 you can manually enter in a value or bring your mouse over it and use the scroll wheel to bring your value
 up or down.
 9. By doing this, you can see the orientation of the ghost tool changing
+
+
 10. ![image](https://user-images.githubusercontent.com/36288975/173730657-fe5452ba-90f3-4dab-9a1f-39682983ef41.png)
+
+
 11. In this case, the basic option does not seem to fix our problem. Fortunately, you can have more options to work
 with; you can reveal them by clicking the blue plus button and change them according to your project.
 10. You can change the rotation around the Z axis (rotz) to its original value, zero, and then click on the “+Z”
@@ -84,6 +88,7 @@ button.
 then Simulate to simulate the result.
 12. If you use the scroll bar, the new tool orientation facilitates the cable management of the tool; it has no
 risk of interfering with the robot.
+
 ![image](https://user-images.githubusercontent.com/36288975/173730700-8782988f-bb79-465e-95f4-e4041b740c70.png)
 
 1. Put back the default normal approach of 100 mm.
@@ -91,7 +96,11 @@ risk of interfering with the robot.
 3. Set it to 50 mm.
 4. Press Update and Simulate once you are finished.
 5. Now the robot retracts normal to the welding path and then straight up
+
+
 6. ![image](https://user-images.githubusercontent.com/36288975/173730741-29331e12-e805-44da-bc71-798894720348.png)
+
+
 
 ## Program:
 ```
